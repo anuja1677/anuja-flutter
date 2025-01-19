@@ -13,7 +13,7 @@ class Insta extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: Text("Instagram",style: TextStyle(
           fontWeight: FontWeight.bold,
-          color: Colors.white,
+          color: const Color.fromARGB(255, 237, 218, 218),
           fontStyle: FontStyle.italic,
         ),),
         backgroundColor: Colors.black,),
@@ -27,6 +27,7 @@ class Insta extends StatelessWidget {
                   border: Border.all(width: 1),
                 ),
                 child: ListView.builder(
+                  itemCount: 10,
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context , index){
                   return Column(
@@ -49,7 +50,7 @@ class Insta extends StatelessWidget {
                 }),
               ),
               Container(
-                width: double.infinity,
+                // width: double.infinity,
                 child: ListView.builder(
                   shrinkWrap: true,
                   itemCount: 10,
@@ -62,7 +63,7 @@ class Insta extends StatelessWidget {
                             margin: EdgeInsets.only(top: 10,bottom: 10,left: 10),
                             child: CircleAvatar(
                               radius: 30,
-                              backgroundColor: Colors.black54,
+                              backgroundColor: const Color.fromARGB(135, 211, 20, 20),
                             ),
                           ),
                           SizedBox(width: 20,),
@@ -73,7 +74,7 @@ class Insta extends StatelessWidget {
                             ],
                           ),
                           Container(
-                            margin: EdgeInsets.only(left:230),
+                            margin: EdgeInsets.only(left:185),
                             child: IconButton(onPressed: (){}, icon: Icon(Icons.drag_indicator_sharp)))
                         ],
                       ),
