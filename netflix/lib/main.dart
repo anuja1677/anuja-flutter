@@ -25,7 +25,7 @@ class MainApp extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context,index){
                   return Container(
-                    color: Colors.amber.shade300,
+                    color: const Color.fromARGB(169, 107, 85, 10),
                     child: Container(
                       height: 30,
                       width: 100,
@@ -40,7 +40,7 @@ class MainApp extends StatelessWidget {
                 }),
               ),
               Container(
-                color: Colors.amber.shade300,
+                color: const Color.fromARGB(166, 112, 88, 8),
                 child: Container(
                   height: 500,
                   width: double.infinity,
@@ -57,9 +57,9 @@ class MainApp extends StatelessWidget {
                 child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("My list",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.white)),
-                      Text("Mobile Games",
-                      style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.white),),
+                      Text("Mobile Games",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white)),
+                      Text("My List",
+                      style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),),
                       
                         ],
                 ),
@@ -89,7 +89,7 @@ class MainApp extends StatelessWidget {
                 width: double.infinity,
                 color: const Color.fromARGB(224, 0, 0, 0),
                 child: 
-                    Text("Hindi-Language Movies",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.white),textAlign: TextAlign.start,)
+                    Text("Hindi-Language Movies",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),textAlign: TextAlign.start,)
               ),
               Container(
                 color: const Color.fromARGB(224, 0, 0, 0),
@@ -117,7 +117,7 @@ class MainApp extends StatelessWidget {
                 width: double.infinity,
                 color: const Color.fromARGB(224, 0, 0, 0),
                 child: 
-                    Text("Recently Crime Dramas",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.white),textAlign: TextAlign.start,)
+                    Text("Recently Crime Dramas",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),textAlign: TextAlign.start,)
               ),
               Container(
                 color: const Color.fromARGB(224, 0, 0, 0),
@@ -144,7 +144,7 @@ class MainApp extends StatelessWidget {
                 width: double.infinity,
                 color: const Color.fromARGB(224, 0, 0, 0),
                 child: 
-                    Text("heartfelt Movies",style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.white),textAlign: TextAlign.start,)
+                    Text("heartfelt Movies",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),textAlign: TextAlign.start,)
               ),
               Container(
                 color: const Color.fromARGB(224, 0, 0, 0),
